@@ -12,3 +12,7 @@ body {
 ul {
   color: white;
 }
+
+li {
+  display: inline;
+}
