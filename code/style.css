@@ -1,18 +1,77 @@
-html, body{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 150vh;
+  width: screen.width;
   background-color: #bdaaff;
 }
 
-ul {
-  color: white;
+
+.nameBanner{
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-li {
-  display: inline;
+
+h4 {
+
+  color: white;
+  font-size: 40px;
+  font-family: "Comic Sans MS";
+
+}
+
+.profileImage{
+  width: 480px;
+  height: 480px;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.amLinks {
+
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.conLink {
+  position: absolute;
+  top: 540px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+ul {
+
+}
+
+ul li {
+  -webkit-transition-duration: .175s;
+  transition-duration: .175s;
+  list-style: none;
+  display: inline-block;
+  line-height: 10px;
+  float: left;
+  padding: 20px;
+
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+}
+
+ul li:hover{
+  transform: scale(1.5);
 }
